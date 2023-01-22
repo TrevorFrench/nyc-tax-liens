@@ -1,0 +1,11 @@
+{
+    "https://api.shinyapps.io": {
+        "server_url": "https://api.shinyapps.io",
+        "filename": "C:\\Users\\Trevor French\\OneDrive - TaxBit\\Desktop\\Python Scripts\\Personal\\nyc-tax-liens\\app",
+        "app_url": "https://trevorfrench.shinyapps.io/nyc-tax-liens1/",
+        "app_id": 8095512,
+        "app_guid": null,
+        "title": "nyc-tax-liens",
+        "app_mode": "python-shiny"
+    }
+}

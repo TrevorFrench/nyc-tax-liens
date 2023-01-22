@@ -1,0 +1,9 @@
+@ECHO OFF
+REM SET UP VIRTUAL ENVIRONMENT
+py -m venv env
+ECHO ENV CREATED
+CALL env\Scripts\activate.bat
+ECHO ENV ACTIVATED
+pip3 install -r .\app\requirements.txt
+ECHO REQUIREMENTS INSTALLED
+PAUSE

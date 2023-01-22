@@ -1,0 +1,13 @@
+{
+    "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pydocstyleEnabled": true,
+    "isort.check": true,
+    "python.linting.pylintPath": "venv/bin/pylint",
+    "[python]": {
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true,
+    }
+  }
