@@ -1,0 +1,21 @@
+.title {
+    background-color: steelblue;
+  }
+
+.container-fluid {
+    padding: 0%;
+}
+
+.shiny-input-container {
+    display: inline-block;
+}
+
+/* .filters > div {
+    display: inline;
+} */
+
+h3 {
+    margin: 0%;
+    padding: 20px;
+    text-align: center;
+}
