@@ -16,12 +16,18 @@ app_ui = ui.page_fluid(
         h3("NYC Tax Lien Sales"),
         class_="title",
     ),
-    div(
-        ui.input_numeric("limit", "Number of Results", value=25, min=1, max=50000),
-        ui.input_numeric("offset", "Page Number", value=1),
-        class_="filters",
+    ui.layout_sidebar(
+        ui.panel_sidebar(
+            div(
+                ui.input_numeric("limit", "Number of Results", value=25, min=1, max=50000),
+                ui.input_numeric("offset", "Page Number", value=1),
+                class_="filters",
+            ),
+        ),
+        ui.panel_main(
+            ui.output_table("info"),
+        ),
     ),
-    ui.output_table("info"),
 )
 
 

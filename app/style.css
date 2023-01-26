@@ -6,13 +6,24 @@
     padding: 0%;
 }
 
+.well {
+    margin: 10px;
+}
+
 .shiny-input-container {
-    display: inline-block;
+    /* display: inline-block; */
+    
 }
 
 /* .filters > div {
     display: inline;
 } */
+
+table {
+    display: block;
+    width: 100%;
+    overflow: scroll;
+}
 
 h3 {
     margin: 0%;
