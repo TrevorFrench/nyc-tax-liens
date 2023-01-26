@@ -3,6 +3,7 @@ requests==2.26.0
 shiny==0.2.7
 pandas==1.5.2
 jinja2
+pathlib
 # linters
 # flake8
 # pdocstyle

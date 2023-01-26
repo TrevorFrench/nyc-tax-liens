@@ -12,7 +12,6 @@
 
 .shiny-input-container {
     /* display: inline-block; */
-    
 }
 
 /* .filters > div {
@@ -22,7 +21,7 @@
 table {
     display: block;
     width: 100%;
-    overflow: scroll;
+    overflow: auto;
 }
 
 h3 {
