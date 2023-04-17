@@ -1,5 +1,7 @@
 # NYC Tax Lien Sales
 
+- A UI for interacting with NYC Tax Lien data created with Shiny Python.
+
 ## Configure venv
 
 ```
